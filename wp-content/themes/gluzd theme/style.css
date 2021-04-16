@@ -1,0 +1,322 @@
+/*
+Theme Name: Gluzd — A Wordpress Development — Agency
+Author: Andrey Kravchenko
+Version: 1.0
+*/
+
+html{
+    font-family: 'Roboto Mono', monospace;
+    color: #011627;
+    font-size: 16px;
+}
+
+body{
+    width: 960px;
+    margin:0 auto;
+}
+
+a{
+    color:#EC474A;
+    text-decoration: underline;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: 400;
+}
+
+h2{
+    font-size: 28px;
+    font-weight: 400 !important;
+}
+
+h3{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+
+p, ul{
+    line-height: 1.5;
+}
+
+.single-post h1{
+    margin-top: 0px;
+    margin-bottom: 140px;
+}
+
+.single-post h2{
+    margin-top: 60px;
+}
+
+.single-post blockquote{
+    width:100%;
+    margin:0;
+    background-color: #E8EEF2;
+    padding: 30px;
+    text-align: left;
+}
+
+.single-post blockquote p{
+    font-size: 24px;
+    font-style: italic;
+}
+
+.tag{
+    margin-top:100px;
+}
+
+.tag p{
+    font-size: 12px !important;
+    color: #6B818C;
+    border: 1px solid #6B818C;
+    border-radius: 1px;
+    padding: 5px;
+    display: inline-block;
+}
+
+ul{
+    color:#6B818C;
+    font-size: 14px;
+}
+
+h1, h2{
+    margin-top: 200px;
+}
+
+header{
+    display: flex;
+    margin-top:50px;
+    align-items: center;
+}
+
+
+nav li{
+    display:inline;
+    margin-right: 20px;
+    line-height: 1;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #6B818C;
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+details summary span{
+    background: white no-repeat scroll 0 0;
+    margin-left: -18px;
+    padding-left:00px;
+    color: #EC474A;
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+.pricing details summary span{
+    background: #E8EEF2 no-repeat scroll 0 0;
+    margin-left: -18px;
+    padding-left:00px;
+    color: #EC474A;
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+details[open] summary span {
+    color: #6B818C;
+}
+
+summary{
+    outline:none;
+}
+
+.pricing{
+    margin-top: 200px;
+}
+
+.pricing h2{
+    margin-top: 0;
+}
+
+.services h3{
+    margin: 30px 0 -15px 0;
+}
+
+.services h4{
+    color: #6B818C;
+}
+
+.cases_preview img{
+    max-width: 150px;
+    height: auto;
+}
+
+.cases_preview p{
+    color: #6B818C;
+    font-size: 10px;
+}
+
+.services details{
+    margin-top: -15px;
+}
+
+.pricing details p{
+    color: #6B818C;
+}
+
+.pricing{
+    background: #E8EEF2;
+    padding:20px 40px 40px 40px;
+}
+
+footer{
+    color:#6B818C;
+}
+
+.wpcf7{
+    margin-bottom: 200px;
+}
+
+.wpcf7-text{
+    color:#EC474A;
+    padding-left: 10px;
+    font-family: inherit;
+    font-size: 16px;
+    width: 400px;
+    min-height:30px;
+    border: 1px solid #6B818C;
+    border-radius: 4px;
+}
+
+.wpcf7-textarea{
+    width: 400px;
+    color:#EC474A;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-family: inherit;
+    font-size: 16px;
+    border: 1px solid #6B818C;
+    border-radius: 4px;
+}
+
+.wpcf7-submit{
+    width: 150px;
+    background-color: #EC474A;
+    border: 1px solid #EC474A;
+    border-radius: 4px;
+    color: white;
+    font-family: inherit;
+    height:40px;
+    font-size: 16px;
+}
+
+
+/* Placeholders */
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color:#6B818C;
+    font-family: inherit;
+    font-size: 16px;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    color:#6B818C;
+    font-family: inherit;
+    font-size: 16px;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    color:#6B818C;
+    font-family: inherit;
+    font-size: 16px;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    color:#6B818C;
+    font-family: inherit;
+    font-size: 16px;
+  }
+
+  .main-page-team-w-description{
+      display:flex;
+      flex-direction: row;
+  }
+
+  .main-page-team{
+    max-width: 200px;
+    margin-right:50px;
+  }
+  .main-page-team img{
+      border-radius: 50px;
+  }
+
+  .team-name{
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .team-bio{
+    font-size: 14px;
+  }
+
+  .clients-thumbnails-w-description{
+    display: flex;
+    
+  }
+
+  .main-page-post-thumbnail img{
+      max-width:200px;
+      height:auto;
+      border: 1px solid #E8EEF2;
+      border-radius: 2px;
+      margin-right: 10px;
+  }
+
+  .main-page-post-thumbnail p{
+      font-size: 12px;
+      color: #6B818C;
+      margin-top:-5px;
+  }
+  .post-item{
+    display:flex;
+    padding:50px 0 50px 0;
+    align-items: center;
+  }
+  
+  .all-posts h1{
+    margin-top:200px;
+  }
+
+  .all-posts{
+    margin-bottom:200px;
+  }
+  
+  .all-posts h2 {
+    margin-top:0px;
+    font-size: 24px;
+    color: #011627;
+  }
+
+  .all-posts a{
+    text-decoration:none;
+    color: #6B818C;
+  }
+
+  .all-posts a:hover{
+    text-decoration:underline;
+    color: #EC474A;
+  }
+
+  .post-item img{
+    max-width:200px;
+    height:auto;
+    margin-right: 100px;
+    border: 1px solid #E8EEF2;
+    border-radius: 2px;
+  }
+
+
+  hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, #E8EEF2, rgba(0, 0, 0, 0));
+  }

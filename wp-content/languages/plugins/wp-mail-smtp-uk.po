@@ -1,0 +1,63 @@
+# Translation of Plugins - WP Mail SMTP by WPForms - Stable (latest release) in Ukrainian
+# This file is distributed under the same license as the Plugins - WP Mail SMTP by WPForms - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-10-16 16:47:56+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: uk_UA\n"
+"Project-Id-Version: Plugins - WP Mail SMTP by WPForms - Stable (latest release)\n"
+
+#: src/Admin/Area.php:218 src/Admin/Area.php:219 src/Admin/Area.php:960
+msgid "Settings"
+msgstr "Налаштування"
+
+#: assets/languages/wp-mail-smtp-vue.php:199 src/Admin/Pages/TestTab.php:69
+msgid "Send a Test Email"
+msgstr "Відправити тестовий лист"
+
+#: assets/languages/wp-mail-smtp-vue.php:290
+#: src/Providers/OptionsAbstract.php:288
+msgid "Authentication"
+msgstr "Авторизація"
+
+#: assets/languages/wp-mail-smtp-vue.php:275
+#: src/Providers/OptionsAbstract.php:212
+msgid "Encryption"
+msgstr "Шифрування"
+
+#: assets/languages/wp-mail-smtp-vue.php:278
+#: src/Providers/OptionsAbstract.php:252
+msgid "SMTP Port"
+msgstr "SMTP порт"
+
+#: assets/languages/wp-mail-smtp-vue.php:272
+#: src/Providers/OptionsAbstract.php:198
+msgid "SMTP Host"
+msgstr "SMTP сервер"
+
+#: src/Admin/Pages/SettingsTab.php:244
+msgid "Set the return-path to match the From Email"
+msgstr "Встановити адресу повернення на адресу \"Від\""
+
+#: src/Admin/Pages/SettingsTab.php:235
+msgid "Return Path"
+msgstr "Адреса повернення (return-path)"
+
+#: assets/languages/wp-mail-smtp-vue.php:356
+#: src/Admin/Pages/SettingsTab.php:257
+msgid "Mailer"
+msgstr "Метод відправки пошти"
+
+#: assets/languages/wp-mail-smtp-vue.php:124
+#: src/Admin/Pages/SettingsTab.php:190
+msgid "From Name"
+msgstr "Від імені"
+
+#: assets/languages/wp-mail-smtp-vue.php:130
+#: src/Admin/Pages/SettingsTab.php:120
+msgid "From Email"
+msgstr "Від (адреса)"
